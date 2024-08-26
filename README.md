@@ -85,3 +85,77 @@ git clone https://github.com/pmndrs/react-three-next
 ### Maintainers :
 
 - [`twitter 🐈‍⬛ @onirenaud`](https://twitter.com/onirenaud)
+
+Ignore this secrion 
+
+```python
+# Variables and Basic Data Types
+name = "Alice"  # String
+age = 25        # Integer
+height = 5.6    # Float
+is_student = True  # Boolean
+
+print(f"{name} is {age} years old and {height} feet tall.")
+```
+
+```python
+# If-Else Statement
+if age < 18:
+    print("You are a minor.")
+else:
+    print("You are an adult.")
+```
+
+```python
+# For Loop
+for i in range(5):
+    print(f"Iteration {i}")
+
+# While Loop
+count = 0
+while count < 5:
+    print(f"Count is {count}")
+    count += 1
+```
+
+```python
+# Defining a Function
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))
+```
+
+```python
+# Working with Lists
+fruits = ["apple", "banana", "cherry"]
+fruits.append("orange")  # Add an item
+print(fruits[1])  # Access an item
+
+for fruit in fruits:
+    print(fruit)
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

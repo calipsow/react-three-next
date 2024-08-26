@@ -107,6 +107,12 @@ if age < 18:
     print("You are a minor.")
 else:
     print("You are an adult.")
+
+# Defining a Function
+def greet(name):
+    return f"Hello, {name}!"
+
+print(greet("Alice"))
 ```
 
 ```python
@@ -122,11 +128,7 @@ while count < 5:
 ```
 
 ```python
-# Defining a Function
-def greet(name):
-    return f"Hello, {name}!"
 
-print(greet("Alice"))
 ```
 
 ```python

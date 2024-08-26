@@ -95,7 +95,10 @@ age = 25        # Integer
 height = 5.6    # Float
 is_student = True  # Boolean
 
-print(f"{name} is {age} years old and {height} feet tall.")
+print(
+  f"{name} is {age} years old.",
+  f"{name} is {height} tall."
+)
 ```
 
 ```python

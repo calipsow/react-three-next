@@ -88,31 +88,39 @@ git clone https://github.com/pmndrs/react-three-next
 
 Ignore this secrion 
 
-```python
-# Variables and Basic Data Types
-name = "Alice"  # String
-age = 25        # Integer
-height = 5.6    # Float
-is_student = True  # Boolean
-
-print(
-  f"{name} is {age} years old.",
-  f"{name} is {height} tall."
-)
+```css
+/* Basic reset for consistent appearance across different browsers */
+body, html {
+    background-color: #d3d3d3; /* Background color similar to the one in the image */
+}
+/* Container for the text with rounded corners and shadow */
+.polymorphism-container {
+    margin: auto;
+    background-color: #fff; /* White background for the container */
+    padding: 20px 40px; /* Padding around the text */
+    border-radius: 20px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for a lifted effect */
+}
+/* Text styling to match the image */
+.polymorphism-text {
+    font-family: 'Arial', sans-serif; /* Choose a sans-serif font similar to the image */
+    font-size: 40px; /* Adjust size according to the image */
+    color: #e1e1e1; /* Light gray color for the text */
+    font-weight: bold; /* Bold text */
+    text-shadow: 
+        1px 1px 2px rgba(0, 0, 0, 0.2), /* Slight shadow effect to give the text depth */
+        -1px -1px 2px rgba(255, 255, 255, 0.7); /* Light inner shadow for a subtle embossed effect */
+    text-transform: uppercase; /* Ensures the text is in uppercase */
+    letter-spacing: 5px; /* Spacing between the letters for a clean look */
+}
 ```
 
-```python
-# If-Else Statement
-if age < 18:
-    print("You are a minor.")
-else:
-    print("You are an adult.")
-
-# Defining a Function
-def greet(name):
-    return f"Hello, {name}!"
-
-print(greet("Alice"))
+```html
+<body>
+    <div class="polymorphism-container">
+        <span class="polymorphism-text">POLYMORPHISM</span>
+    </div>
+</body>
 ```
 
 ```python

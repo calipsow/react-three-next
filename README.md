@@ -32,8 +32,14 @@ body, html {
 
 ```html
 
-<div class="polymorphism-container">
-  <span class="polymorphism-text">POLYMORPHISM</span>
+<div 
+  class="polymorphism-container"
+  >
+    <span 
+      class="polymorphism-text"
+    >
+      POLYMORPHISM
+    </span>
 </div>
 
 ```

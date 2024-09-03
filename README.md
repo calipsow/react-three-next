@@ -1,18 +1,35 @@
 
 
-```css
+```javascript
 
-body, html {
-  background-color: #d3d3d3; 
-}
+// The Spread Operator
 
-.polymorphism-container {
-  margin: auto;
-  background-color: #fff;    
-  padding: 20px 40px; 
-  border-radius: 20px; 
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+// You can merge all items from a list 
+// into another list using ...
+const array = [1, 2, 3]
+const array2 = [...array, 4, 5, 6]
+console.log(array2) 
+// -> [1, 2, 3, 4, 5, 6]
+
+// You can spread objects 
+// into others the same way
+const obj = {prop: 1, prop2: 2}
+const obj2 = {...obj, prop3: 3}
+console.log(obj2) 
+// -> {prop: 1, prop2: 2, prop3: 3}
+
+// You can use the spread operator even 
+// in functions parameters, to pass 
+// an unlimited amount of parameter 
+// to the function 
+function foo(...args){
+  // the args will be passed as array
+  // containing all items you passed as
+  // parameter
+  console.log(args)
 }
+foo(1, 2, 3) // -> [1, 2, 3]
+
 ```
 
 ```css

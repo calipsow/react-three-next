@@ -2,6 +2,9 @@
 
 ```javascript
 
+
+
+
 // The Spread Operator
 
 // You can merge all items from a list 
@@ -29,6 +32,9 @@ function foo(...args){
   console.log(args)
 }
 foo(1, 2, 3) // -> [1, 2, 3]
+
+
+
 
 ```
 

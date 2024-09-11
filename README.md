@@ -1,3 +1,7 @@
+```markdown
+
+Typical React Native app 
+structured by layer.
 
 root/
 │
@@ -28,7 +32,7 @@ root/
      └─── config/
            └─── config.ts
 
-
+```
 
 
 

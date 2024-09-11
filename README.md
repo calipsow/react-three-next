@@ -1,4 +1,36 @@
 
+root/
+│
+├─── package.json
+├─── tsconfig.json
+├─── .gitignore
+├─── index.ts
+│
+└─── src/
+     │
+     ├─── App.tsx
+     │
+     ├─── components/
+     │     └─── Button.tsx
+     │
+     ├─── screens/
+     │     └─── HomeScreen.tsx
+     │
+     ├─── services/
+     │     └─── AuthService.ts
+     │
+     ├─── models/
+     │     └─── UserModel.ts
+     │
+     ├─── utils/
+     │     └─── Helpers.ts
+     │
+     └─── config/
+           └─── config.ts
+
+
+
+
 
 ```javascript
 

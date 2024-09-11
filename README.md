@@ -21,14 +21,6 @@ root/
      │     ├─── screens/
      │     │      └─── LoginScreen.tsx
      │
-     ├─── dashboard/
-     │     ├─── components/
-     │     │      └─── StatsCard.tsx
-     │     ├─── services/
-     │     │      └─── DashboardService.ts
-     │     ├─── screens/
-     │     │      └─── DashboardScreen.tsx
-     │
      ├─── profile/
      │     ├─── components/
      │     │      └─── ProfilePicture.tsx

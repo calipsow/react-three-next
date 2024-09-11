@@ -1,5 +1,59 @@
 ```markdown
 
+The feature based approach 
+for structuring a large
+react native app
+
+root/
+│
+├─── package.json
+├─── tsconfig.json
+├─── .gitignore
+├─── index.ts
+│
+└─── src/
+     │
+     ├─── auth/
+     │     ├─── components/
+     │     │      └─── LoginButton.tsx
+     │     ├─── services/
+     │     │      └─── AuthService.ts
+     │     ├─── screens/
+     │     │      └─── LoginScreen.tsx
+     │
+     ├─── dashboard/
+     │     ├─── components/
+     │     │      └─── StatsCard.tsx
+     │     ├─── services/
+     │     │      └─── DashboardService.ts
+     │     ├─── screens/
+     │     │      └─── DashboardScreen.tsx
+     │
+     ├─── profile/
+     │     ├─── components/
+     │     │      └─── ProfilePicture.tsx
+     │     ├─── services/
+     │     │      └─── ProfileService.ts
+     │     ├─── screens/
+     │     │      └─── ProfileScreen.tsx
+     │
+     ├─── shared/
+     │     ├─── components/
+     │     │      └─── Header.tsx
+     │     ├─── utils/
+     │     │      └─── helpers.ts
+     │     └─── config/
+     │            └─── config.ts
+  App.tsx
+
+
+```
+
+
+
+
+```markdown
+
 Typical React Native app 
 structured by layer.
 

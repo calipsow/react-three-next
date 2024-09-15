@@ -1,3 +1,31 @@
+
+
+```js
+
+// DOMPurify will remove all 
+// dangerous html strings and 
+// returns only the safe parts
+
+console.log(
+ DOMPurify.sanitize(
+  `<p>Cleaning inputs is crucial</p>
+   <script> 
+    alert("XSS Attack")
+  </script>`
+ )
+);
+
+// Evaluates to:
+// "<p>Cleaning inputs is crucial</p>"
+
+// The resulting HTML can be written 
+// into a DOM element using innerHTML
+// without risking XSS-Attacks
+
+```
+
+
+
 ```markdown
 
 The feature based approach 

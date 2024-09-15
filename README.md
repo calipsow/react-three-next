@@ -1,10 +1,10 @@
 
 ```markdown
-# Prevent XSS Attacks
-# With **DOMPurify**
+Prevent XSS Attacks
+With DOMPurify
 
-### Very Lightweight
-### Available via HTML Script
+- Very Lightweight ✅
+- Available via HTML Script ✅
 ```
 
 ```bash

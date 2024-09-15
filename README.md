@@ -3,26 +3,22 @@
 Prevent XSS Attacks
 With DOMPurify
 
-- Very Lightweight ✅
-- Available via HTML Script ✅
+Very Lightweight
+Available via HTML Script
 ```
 
 ```bash
-yarn add dompurify
-npm install dompurify
+$ yarn add dompurify
+$ npm install dompurify
 ```
 
 ```html
-
 <script 
   src="js/lib/purify.min.js">
 </script>
-
 ```
 
 ```js
-// Usage
-
 // DOMPurify will remove 
 // dangerous html parts and 
 // returns the remaining HTML
@@ -37,7 +33,6 @@ console.log(
 );
 
 // Output
-
 "<p>Cleaning inputs is crucial</p>"
 
 // The result can safely written 

@@ -7,9 +7,9 @@ Very Lightweight
 Available via HTML Script
 ```
 
-```bash
-$ yarn add dompurify
-$ npm install dompurify
+```shell
+yarn add dompurify
+npm install dompurify
 ```
 
 ```html

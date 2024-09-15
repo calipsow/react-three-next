@@ -1,10 +1,31 @@
 
+```markdown
+# Prevent XSS Attacks
+# With **DOMPurify**
+
+### Very Lightweight
+### Available via HTML Script
+```
+
+```bash
+yarn add dompurify
+npm install dompurify
+```
+
+```html
+
+<script 
+  src="js/lib/purify.min.js">
+</script>
+
+```
 
 ```js
+// Usage
 
-// DOMPurify will remove all 
-// dangerous html strings and 
-// returns only the safe parts
+// DOMPurify will remove 
+// dangerous html parts and 
+// returns the remaining HTML
 
 console.log(
  DOMPurify.sanitize(
@@ -15,13 +36,13 @@ console.log(
  )
 );
 
-// Evaluates to:
-// "<p>Cleaning inputs is crucial</p>"
+// Output
 
-// The resulting HTML can be written 
-// into a DOM element using innerHTML
-// without risking XSS-Attacks
+"<p>Cleaning inputs is crucial</p>"
 
+// The result can safely written 
+// into the DOM without
+// risking XSS-Attacks
 ```
 
 

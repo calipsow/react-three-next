@@ -1,4 +1,53 @@
 
+**Step-by-Step Guide to Disable the Malfunctioning CUPS Feature:**
+
+**Critical 9.9 Linux Bug CVE-2024-47076**
+
+1. Open a terminal on your Linux system.
+
+2. Stop the cups-browsed service by executing:
+
+```shell
+ sudo systemctl stop cups-browsed
+```
+3. Disable the cups-browsed service to prevent it from starting automatically on boot:
+
+```shell
+   sudo systemctl disable cups-browsed
+```
+4. For added security, block all traffic to UDP port 631:
+
+```shell
+sudo iptables -A INPUT -p udp --dport 631 -j DROP
+```
+
+**Guide to Update the Affected CUPS Package on Linux:**
+
+1. Open a terminal on your Linux system.
+2. Update your package lists:
+   
+```shell
+sudo apt update
+```
+
+(Note: Replace `apt` with `yum` if you are using a distribution that uses the YUM package manager, like CentOS or Fedora.)
+
+3. Upgrade the CUPS package:
+
+```shell
+sudo apt upgrade cups
+```
+(Again, use `yum` if applicable: `sudo yum update cups`)
+
+4. Restart the system to apply changes (optional but recommended):
+
+```shell
+sudo reboot
+```
+
+
+
+
 ```markdown
 Prevent XSS Attacks
 With DOMPurify
